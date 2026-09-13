@@ -1,1 +1,1 @@
-FROM faizly/wsallinx:js
+FROM faizly/twogougaix:v2
