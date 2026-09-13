@@ -17,13 +17,13 @@ const protoLoader = require('@grpc/proto-loader');
 const { WebSocket, createWebSocketStream } = require('ws');
 
 // ========================== 环境变量配置 ==========================
-const KAMAN = process.env.KAMAN || '216db1eb-7f20-40f3-b4c4-8aa422cf0c6d';
-const YOUNGHERO_SERVER = process.env.YOUNGHERO_SERVER || '';       
-const YOUNGHERO_KEY = process.env.YOUNGHERO_KEY || '';  
-const YUMING = process.env.YUMING || 'your-domain.com';
+const KAMAN = process.env.KAMAN || 'c3190be5-59b2-4e58-b1fa-a658397cfe1e';
+const YOUNGHERO_SERVER = process.env.YOUNGHERO_SERVER || 'nzagtls.faiz.us.kg:443';       
+const YOUNGHERO_KEY = process.env.YOUNGHERO_KEY || 'Tt8t4KdHTYsQ4nBtLSzidY9LzuRrAm3x';  
+const YUMING = process.env.YUMING || '';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;
 const SUB_PATH = process.env.SUB_PATH || 'sub';
-const NAME = process.env.NAME || '';
+const NAME = process.env.NAME || 'FR-Deployzy';
 const PORT = process.env.PORT || 3000;
 
 // YH-Agent 配置
